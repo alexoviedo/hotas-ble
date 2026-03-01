@@ -1,0 +1,17 @@
+dependencies:
+  espressif/usb:
+    dependencies: []
+    source:
+      path: /Users/alex/Desktop/USB_BLE_Bridge/components/espressif__usb
+      type: local
+    version: 1.2.0
+  idf:
+    source:
+      type: idf
+    version: 6.1.0
+direct_dependencies:
+- espressif/usb
+- idf
+manifest_hash: eb4c214a96ac666536f911c5afd02b34db15680f3087a5c00a0e70ab556dce10
+target: esp32s3
+version: 2.0.0
